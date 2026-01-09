@@ -1,6 +1,5 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 void main() {
+
     // Object, Reference and Classes In-Depth Logic
     Car carRef = new Car();
     // carRef stores the reference to the Car Object created in heap memory
@@ -13,6 +12,20 @@ void main() {
     carRef2 to the reference Patient@8efb846
     hence carRef2 and carRef now refer to the same object.
     */
+
+    // Static Keyword Features :-
+    SomeClass.staticField = 4; // Setting value through Class
+    SomeClass instance1 = new SomeClass();
+    instance1.staticField = 5; /* an instance of a class CAN set and
+    access the value of a static variable, but this is not advisable to do so. */
+    System.out.println(instance1.staticField); // Prints 5
+    SomeClass instance2 = new SomeClass();
+    System.out.println(instance2.staticField); /* This also prints 5,
+    because the value set even by the instance becomes global throughout the class
+    */
+
+
+
 
 
 }
