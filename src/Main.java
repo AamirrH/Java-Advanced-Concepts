@@ -1,3 +1,5 @@
+import Records.Record_Example;
+
 void main() {
 
     // Object, Reference and Classes In-Depth Logic
@@ -23,6 +25,14 @@ void main() {
     System.out.println(instance2.staticField); /* This also prints 5,
     because the value set even by the instance becomes global throughout the class
     */
+
+    // Records in Java
+    Record_Example record1 = new Record_Example("Aamir","Human",47);
+
+    System.out.println("Name in record: "+record1.name() +" "+","+
+    "Type in record: "+record1.type()+" "+","+"Number in record: "+record1.number());
+    // Output :- Name in record: Aamir ,Type in record: Human ,Number in record: 47
+
 
 
 
