@@ -69,7 +69,5 @@ class Main{
         person1.details();
 
 
-
-
     }
 }
