@@ -1,3 +1,4 @@
+import Access_Modifiers.ExamplePublicClass;
 import Records.Record_Example;
 
 void main() {
@@ -32,6 +33,9 @@ void main() {
     System.out.println("Name in record: "+record1.name() +" "+","+
     "Type in record: "+record1.type()+" "+","+"Number in record: "+record1.number());
     // Output :- Name in record: Aamir ,Type in record: Human ,Number in record: 47
+
+
+
 
 
 
